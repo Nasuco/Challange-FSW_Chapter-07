@@ -29,8 +29,8 @@ const Navbar = () => {
                         <a href="#faq" className="btn">FAQ</a>
                     </li>
                     <div className="justify-content-center px-2 text-end">
-                        <Link to = "/registrationForm">
-                            <button type="button" className="btn btn-success">Register</button>
+                        <Link to = "/login">
+                            <button type="button" className="btn btn-success">Login</button>
                         </Link>
                     </div>
                     </ul>
