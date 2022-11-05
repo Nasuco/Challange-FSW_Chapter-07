@@ -71,13 +71,15 @@ function Login() {
                     </div>
                     <div className="container d-flex justify-content-center p-4">
                         <button type="submit" className="btn btn-success">Login</button>
-                        <GoogleLogin
-                            clientId = {process.env.REACT_APP_GOOGLE_CLIENT_ID}
-                            buttonText = "Login with Google"
-                            onSuccess = {haldleSuccessGoogle}
-                            onFailure = {haldleFailureGoogle}
-                            cookiePolicy = {'single_host_origin'}
-                        />
+                    </div>
+                    <div className='container d-flex justify-content-center p-1'>
+                            <GoogleLogin
+                                clientId = {process.env.REACT_APP_GOOGLE_CLIENT_ID}
+                                buttonText = "Login with Google"
+                                onSuccess = {haldleSuccessGoogle}
+                                onFailure = {haldleFailureGoogle}
+                                cookiePolicy = {'single_host_origin'}
+                            />
                     </div>
                 </form>
             </div>
