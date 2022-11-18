@@ -28,7 +28,7 @@ const Navbar = () => {
                     <li className="nav-item px-2 fw-normal text-end">
                         <a href="#faq" className="btn">FAQ</a>
                     </li>
-                    <div className="justify-content-center px-2 text-end">
+                    <div className="justify-conte3nt-center px-2 text-end">
                         <Link to = "/login">
                             <button type="button" className="btn btn-success">Login</button>
                         </Link>
