@@ -1,11 +1,14 @@
+// eslint-disable-next-line
+import React from 'react';
 import './ResultCars.css'
 import priceFormat from '../../utils/price.js'
+import PropTypes from 'prop-types';
 
-const ResultCars = (props) => {
+const ResultCars = (PropsTypes) => {
   return (
     <div className="container show-car">
       <div className="cars-container row my-2 px-1">
-        {props.items.map((car) => (
+        {PropsTypes.items.map((car) => (
           <div className="col-md-4 my-2" key={car.id}>
             <div className="card h-100">
               <div className="card-body">

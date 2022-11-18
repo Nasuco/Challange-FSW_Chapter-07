@@ -1,7 +1,8 @@
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 
-import {BrowserRouter, Routes, Route, useState } from "react-router-dom";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 import Index from './pages/index.js';
 import Cars from './pages/cars.js';
